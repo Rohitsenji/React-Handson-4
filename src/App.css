@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: rgb(13, 76, 134);
+}
+.Navbar{
+  height: 10vh;
+  display: flex;
+  text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: rgb(51, 180, 219);
+}
+.navdata{
+  font-family: 'Lora', serif;
+  margin-left: 10vw;
+  margin-top: 1.7vh;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.page{
+  margin-top: 10vw;
+  font-size: 2rem;
+}
+.datacontainer{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  box-sizing: border-box;
+
+}
+.addnewstudent{
+  cursor: pointer;
+  margin-left: 70vw;
+  border-radius: 20px;
+  width: 120px;
+  height: 50px;
+  background-color: rgb(99, 191, 228);
+  color: white;
+  border-color: transparent;
+  transition: background-color 0.1s ease;
+}
+.addnewstudent:hover{
+  background-color: #235b8f;
+}
+.div2{
+  margin-left: 10vw;
+  margin-top: 10vh;
+  box-sizing: border-box;
+}
+table{
+  width: 80vw;
+  min-height: 40vh;
+}
+.div2 table,tr,td{
+  border: 2px soid black;
+}
+table,tr,td,th{
+ border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+td{
+  color: rgb(24, 34, 68);
+  font-weight: 500;
+}
+
+
